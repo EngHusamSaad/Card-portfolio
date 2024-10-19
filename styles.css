@@ -1,0 +1,134 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+   border: 5px solid #CCCCCC;
+   width: 500px;
+   height: 280px;
+   margin: 50px auto;
+   background-color: beige;
+}
+
+.header{
+    background-color: #17A2B8;
+    width: 490px;
+    height: 100px;
+}
+
+.userphoto{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    top: -70px;
+    left: 25px;
+}
+.name{
+    position: relative;
+    top: -40px;
+    left: -80px;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.addressdetails{
+    display: flex;
+    justify-items: end; 
+}
+.map-marker{
+    width: 13px;
+    height: 20px;
+    position: relative;
+    top: -35px;
+    left: -75px; 
+}
+.address{
+    padding-left: 5px;
+    font-weight: bold;
+    position: relative;
+    top: -35px;
+    left: -275px;
+}
+
+.Personaldetails{
+
+    position: relative;
+    top: -30px;
+    left: 25px;
+    font-size: 15px;
+}
+
+.editprofile{
+
+    display: flex;
+    
+}
+.editprofile a{
+    font-size: 16spx;
+    padding-left: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: -20px;
+    left: -255px;
+    
+}
+.editprofile img{
+    width: 15px;
+    height: 20px; 
+    position: relative;
+    top: -20px;
+    left: -60px;
+}
+.nav{
+    
+    background-color: #333333 ;
+    display: flex;
+    margin: 5px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-title{
+    flex :3;
+    color: white;
+    font-family: cursive;
+    padding: 20px 20px;
+   
+}
+
+.nav-links{
+    display: flex;
+    font-family: cursive;
+    color: white;
+    flex:2;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    list-style-type: none; 
+}
+
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}
+.active:hover{
+    color: red;
+    font-weight: bold;
+
+}
+.btn{
+    background-color: #17A2B8;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    padding: 5px 15px ;
+    border-style: solid;
+    box-shadow: 10px 5px  black;
+    font-size: 20px;
+}
+
+
